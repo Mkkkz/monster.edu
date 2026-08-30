@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Monster Energy — Unleash the Beast</title>
+  <meta name="description" content="Monster Energy: a energia brutal que você precisa. Conheça os novos sabores e modelos do mercado." />
+  <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.ico" />
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon/android-chrome-192x192.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png" />
+  <link rel="manifest" href="assets/favicon/site.webmanifest" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Oswald:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- NAV -->
+  <header class="nav">
+    <a href="#" class="brand" aria-label="Monster Energy">
+      <img src="assets/images/monster-logo.png" alt="Monster Energy" class="brand-logo" />
+    </a>
+    <nav class="nav-links">
+      <a href="produtos.html">Produtos</a>
+      <a href="#recursos">Energia</a>
+      <a href="#sobre">Sobre</a>
+      <a href="faq.html">FAQ</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+  <div class="mobile-menu">
+    <a href="produtos.html">Produtos</a>
+    <a href="#recursos">Energia</a>
+    <a href="#sobre">Sobre</a>
+    <a href="faq.html">FAQ</a>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <h1 class="hero-title">MONSTER<br /><span class="hl">ENERGY</span></h1>
+      <p class="hero-sub">A energia sem limites para quem não para. Sinta a força do novo <strong>Monster</strong>.</p>
+      <div class="hero-cta">
+        <a href="#produtos" class="btn btn-green">Ver Sabores</a>
+        <a href="#recursos" class="btn btn-ghost">Como funciona</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><span class="num">160<span class="unit">mg</span></span><span class="lbl">de cafeína</span></div>
+        <div class="stat"><span class="num">0<span class="unit">kcal</span></span><span class="lbl">versões zero</span></div>
+        <div class="stat"><span class="num">500<span class="unit">ml</span></span><span class="lbl">por lata</span></div>
+      </div>
+    </div>
+    <div class="hero-can-wrap">
+      <div class="hero-can">
+        <img src="assets/images/Monster energy original.webp" alt="Monster Energy Original" class="can-img can-img-large" />
+      </div>
+    </div>
+    <div class="scroll-hint" aria-hidden="true">
+      <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+    </div>
+  </section>
+
+  <!-- PRODUTOS -->
+  <section class="products" id="produtos">
+    <h2 class="section-title">OS NOVOS MODELOS</h2>
+    <p class="section-sub">Gire a lata para ver cada sabor em 3D.</p>
+    <div class="product-grid">
+      <div class="product-card" data-name="Original">
+        <img src="assets/images/Monster energy original.webp" alt="Monster Energy Original" class="can-img" loading="lazy" />
+      </div>
+      <div class="product-card" data-name="Ultra Violet">
+        <img src="assets/images/Monster Energy Ultra Violet.webp" alt="Monster Energy Ultra Violet" class="can-img" loading="lazy" />
+      </div>
+      <div class="product-card" data-name="Mango Loco">
+        <img src="assets/images/Monster Energy Juice Mango Loco.webp" alt="Monster Energy Mango Loco" class="can-img" loading="lazy" />
+      </div>
+      <div class="product-card" data-name="Pacific Punch">
+        <img src="assets/images/Monster Energy Juice Pacific Punch.webp" alt="Monster Energy Pacific Punch" class="can-img" loading="lazy" />
+      </div>
+      <div class="product-card" data-name="Pipeline Punch">
+        <img src="assets/images/Monster Energy Juice Pipeline Punch.webp" alt="Monster Energy Pipeline Punch" class="can-img" loading="lazy" />
+      </div>
+      <div class="product-card" data-name="Ultra Blue">
+        <img src="assets/images/Monster Energy Absolutely Zero (ultra blue).webp" alt="Monster Energy Absolutely Zero" class="can-img" loading="lazy" />
+      </div>
+      <div class="product-card" data-name="Ultra Watermelon">
+        <img src="assets/images/Monster Energy Ultra Watermelon (ultra red).webp" alt="Monster Energy Ultra Watermelon" class="can-img" loading="lazy" />
+      </div>
+      <div class="product-card" data-name="Ultra Strawberry Dreams">
+        <img src="assets/images/Monster Ultra Strawberry Dreams (ultra rosa).webp" alt="Monster Energy Ultra Strawberry Dreams" class="can-img" loading="lazy" />
+      </div>
+    </div>
+    <div class="products-more">
+      <a href="produtos.html" class="btn btn-outline">Ver todos os sabores</a>
+    </div>
+  </section>
+
+  <!-- RECURSOS -->
+  <section class="features" id="recursos">
+    <h2 class="section-title">ENERGIA DE OUTRO NÍVEL</h2>
+    <div class="feature-grid">
+      <div class="feature">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+        </div>
+        <h3>Recarga Instantânea</h3>
+        <p>Blend exclusivo de cafeína, taurina e ginseng para manter você no pico.</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        </div>
+        <h3>Sabor Intenso</h3>
+        <p>Do clássico verde aos sabores tropicais, cada lata é uma explosão de sabor.</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2l3 7h7l-5.5 4 2 7L12 15l-6.5 5 2-7L2 9h7z"/></svg>
+        </div>
+        <h3>Zero Açúcar</h3>
+        <p>A linha Ultra entrega toda a energia sem uma gota de açúcar.</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="M12 15l-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"/><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"/></svg>
+        </div>
+        <h3>Feito pra Ação</h3>
+        <p>Design ergonômico e tampa fácil de abrir, pronto para qualquer aventura.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section class="about" id="sobre">
+    <h2 class="section-title">SOBRE A MONSTER</h2>
+    <div class="about-inner">
+      <div class="about-can">
+        <img src="assets/images/Monster Energy Ultra Violet.webp" alt="Monster Energy Ultra Violet" class="can-img can-img-large" loading="lazy" />
+      </div>
+      <div class="about-text">
+        <h3>UNLEASH THE BEAST</h3>
+        <p>Desde 2002, a Monster Energy desperta a besta em milhões de pessoas pelo mundo. Do esporte ao rock, da noite à aventura — é a energia que acompanha quem vive sem limites.</p>
+        <p>Nossa missão: entregar a dose certa de atitude, sabor e potência em cada gole.</p>
+        <a href="#produtos" class="btn btn-outline">Conheça a linha</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <img src="assets/images/monster-logo.png" alt="Monster Energy" class="footer-logo" />
+    <p class="footer-tag">Unleash the Beast</p>
+    <div class="footer-links">
+      <a href="#inicio">Início</a>
+      <a href="produtos.html">Produtos</a>
+      <a href="#recursos">Energia</a>
+      <a href="faq.html">FAQ</a>
+    </div>
+    <p class="footer-copy">&copy; 2026 Monster Energy — Projeto demonstrativo. Site fictício criado para fins de estudo.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
